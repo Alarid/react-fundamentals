@@ -13,8 +13,8 @@
 
     const element = (
       <div className="container">
-        {message({children: 'Hello world'})}
-        {message({children: 'Goodbye (cruel) world'})}
+        {React.createElement(message, {children: 'Hello world'})}
+        {React.createElement(message, {children: 'Goodbye (cruel) world'})}
       </div>
     )
 
