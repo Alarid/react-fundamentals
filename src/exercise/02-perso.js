@@ -1,43 +1,47 @@
+/* eslint-disable no-unused-vars */
 /**
  * IMPERATIVE PROGRAMMING
  */
-
-function double(arr) {
-  let results = []
-  for (let i = 0; i < arr.length; i++) {
-    results.push(arr[i] * 2)
+const IMPERATIVE = () => {
+  function double(arr) {
+    let results = []
+    for (let i = 0; i < arr.length; i++) {
+      results.push(arr[i] * 2)
+    }
+    return results
   }
-  return results
-}
-function add(arr) {
-  let result = 0
-  for (let i = 0; i < arr.length; i++) {
-    result += arr[i]
+  function add(arr) {
+    let result = 0
+    for (let i = 0; i < arr.length; i++) {
+      result += arr[i]
+    }
+    return result
   }
-  return result
-}
 
-$('#btn').click(function () {
-  $(this).toggleClass('highlight')
-  $(this).text() === 'Add Highlight'
-    ? $(this).text('Remove Highlight')
-    : $(this).text('Add Highlight')
-})
+  // $('#btn').click(function () {
+  //   $(this).toggleClass('highlight')
+  //   $(this).text() === 'Add Highlight'
+  //     ? $(this).text('Remove Highlight')
+  //     : $(this).text('Add Highlight')
+  // })
+}
 
 /**
  * DECLARATIVE PROGRAMING
  */
-function double(arr) {
-  return arr.map(item => item * 2)
-}
+const DECLARATIVE = () => {
+  function double(arr) {
+    return arr.map(item => item * 2)
+  }
 
-function add(arr) {
-  return arr.reduce((prev, current) => prev + current, 0)
-}
+  function add(arr) {
+    return arr.reduce((prev, current) => prev + current, 0)
+  }
 
-;<Btn
-  onToggleHighlight={this.handleToggleHighlight}
-  highlight={this.state.highlight}
->
-  {this.state.buttonText}
-</Btn>
+  // <Btn
+  //   onToggleHighlight={this.handleToggleHighlight}
+  //   highlight={this.state.highlight}
+  // >
+  //   {this.state.buttonText}
+  // </Btn>
+}
