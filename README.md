@@ -1,3 +1,16 @@
+This is a fork of the workshop <a href="https://epicreact.dev/fundamentals">React Fundamentals</a> from 🚀 EpicReact.Dev by [Kent C. Dodds](https://kentcdodds.com/). In this fork, I followed along the workshop exercises by working in the `src/exercise` folder, while elaborating on my learnings for each exercise in the associated markdown file. 
+
+## Table of content
+1. [Basic JavaScript-rendered Hello World](https://github.com/Alarid/react-fundamentals/blob/main/src/exercise/01.md)
+2. [Intro to raw React APIs](https://github.com/Alarid/react-fundamentals/blob/main/src/exercise/02.md)
+3. [Using JSX](https://github.com/Alarid/react-fundamentals/blob/main/src/exercise/03.md)
+4. [Creating custom components](https://github.com/Alarid/react-fundamentals/blob/main/src/exercise/04.md)
+5. [Styling](https://github.com/Alarid/react-fundamentals/blob/main/src/exercise/05.md)
+6. [Forms](https://github.com/Alarid/react-fundamentals/blob/main/src/exercise/06.md)
+7. [Rendering Arrays](https://github.com/Alarid/react-fundamentals/blob/main/src/exercise/07.md)
+
+---
+
 <div>
   <h1 align="center"><a href="https://epicreact.dev/fundamentals">React Fundamentals 🚀 EpicReact.Dev</a></h1>
   <strong>
